@@ -5,7 +5,7 @@ const config = require("./config");
 const log = [];
 
 const messagesParser = (messages = []) => {
-  messages.every((item) => {
+  messages.forEach((item) => {
     log.push(item);
     if (item.event === "incident.trigger") {
       const {

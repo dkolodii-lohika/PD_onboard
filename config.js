@@ -1,5 +1,5 @@
 module.exports = {
-  token: "h8nwnxAzDyz7EPp2Q7Hu",
+  token: '<your API token>',
   userEmail: "dkolodii@lohika.com",
   APIhost: "https://api.pagerduty.com",
   childServiceID: "P8MFCPP",
